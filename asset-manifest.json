@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/github.io/khys/static/css/main.a5246552.css",
-    "main.js": "/github.io/khys/static/js/main.2256f715.js",
-    "static/js/787.0e0fc370.chunk.js": "/github.io/khys/static/js/787.0e0fc370.chunk.js",
-    "static/media/CandyBar.png": "/github.io/khys/static/media/CandyBar.4d249f744cd307fa802a.png",
-    "static/media/KHYSCruh.jpg": "/github.io/khys/static/media/KHYSCruh.23fcce35f5c315dbd7fe.jpg",
-    "static/media/blog3.jpg": "/github.io/khys/static/media/blog3.9e0ac0278688637dc6ad.jpg",
-    "static/media/portfolio-1.jpg": "/github.io/khys/static/media/portfolio-1.6ae1a9b7ec61ea1961c3.jpg",
-    "static/media/portfolio-2.png": "/github.io/khys/static/media/portfolio-2.0e90197d8b97f008deaf.png",
-    "static/media/contacto-visao.jpg": "/github.io/khys/static/media/contacto-visao.55df6a1aa78ef30dbf25.jpg",
-    "static/media/contacto-missao.jpg": "/github.io/khys/static/media/contacto-missao.b67acde99ca0320a4f3d.jpg",
-    "static/media/aboutus.png": "/github.io/khys/static/media/aboutus.1b46f0bbe8cd62b8e0c8.png",
-    "static/media/truck.gif": "/github.io/khys/static/media/truck.88b6245619badab433a0.gif",
-    "static/media/logo.jpg": "/github.io/khys/static/media/logo.40b60d10562796dc8514.jpg",
-    "static/media/logo.png": "/github.io/khys/static/media/logo.75091c160d9a4b1a2c6a.png",
-    "index.html": "/github.io/khys/index.html",
-    "main.a5246552.css.map": "/github.io/khys/static/css/main.a5246552.css.map",
-    "main.2256f715.js.map": "/github.io/khys/static/js/main.2256f715.js.map",
-    "787.0e0fc370.chunk.js.map": "/github.io/khys/static/js/787.0e0fc370.chunk.js.map"
+    "main.css": "/khys/static/css/main.a5246552.css",
+    "main.js": "/khys/static/js/main.eaa0676e.js",
+    "static/js/787.0e0fc370.chunk.js": "/khys/static/js/787.0e0fc370.chunk.js",
+    "static/media/CandyBar.png": "/khys/static/media/CandyBar.4d249f744cd307fa802a.png",
+    "static/media/KHYSCruh.jpg": "/khys/static/media/KHYSCruh.23fcce35f5c315dbd7fe.jpg",
+    "static/media/blog3.jpg": "/khys/static/media/blog3.9e0ac0278688637dc6ad.jpg",
+    "static/media/portfolio-1.jpg": "/khys/static/media/portfolio-1.6ae1a9b7ec61ea1961c3.jpg",
+    "static/media/portfolio-2.png": "/khys/static/media/portfolio-2.0e90197d8b97f008deaf.png",
+    "static/media/contacto-visao.jpg": "/khys/static/media/contacto-visao.55df6a1aa78ef30dbf25.jpg",
+    "static/media/contacto-missao.jpg": "/khys/static/media/contacto-missao.b67acde99ca0320a4f3d.jpg",
+    "static/media/aboutus.png": "/khys/static/media/aboutus.1b46f0bbe8cd62b8e0c8.png",
+    "static/media/truck.gif": "/khys/static/media/truck.88b6245619badab433a0.gif",
+    "static/media/logo.jpg": "/khys/static/media/logo.40b60d10562796dc8514.jpg",
+    "static/media/logo.png": "/khys/static/media/logo.75091c160d9a4b1a2c6a.png",
+    "index.html": "/khys/index.html",
+    "main.a5246552.css.map": "/khys/static/css/main.a5246552.css.map",
+    "main.eaa0676e.js.map": "/khys/static/js/main.eaa0676e.js.map",
+    "787.0e0fc370.chunk.js.map": "/khys/static/js/787.0e0fc370.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5246552.css",
-    "static/js/main.2256f715.js"
+    "static/js/main.eaa0676e.js"
   ]
 }
