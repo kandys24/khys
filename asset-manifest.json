@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/khys/static/css/main.a5246552.css",
-    "main.js": "/khys/static/js/main.eaa0676e.js",
+    "main.css": "/khys/static/css/main.fbd588a4.css",
+    "main.js": "/khys/static/js/main.5984e73a.js",
     "static/js/787.0e0fc370.chunk.js": "/khys/static/js/787.0e0fc370.chunk.js",
     "static/media/CandyBar.png": "/khys/static/media/CandyBar.4d249f744cd307fa802a.png",
     "static/media/KHYSCruh.jpg": "/khys/static/media/KHYSCruh.23fcce35f5c315dbd7fe.jpg",
@@ -11,16 +11,15 @@
     "static/media/contacto-visao.jpg": "/khys/static/media/contacto-visao.55df6a1aa78ef30dbf25.jpg",
     "static/media/contacto-missao.jpg": "/khys/static/media/contacto-missao.b67acde99ca0320a4f3d.jpg",
     "static/media/aboutus.png": "/khys/static/media/aboutus.1b46f0bbe8cd62b8e0c8.png",
+    "static/media/KHYS-Logo.png": "/khys/static/media/KHYS-Logo.c3961c523d4eb629911a.png",
     "static/media/truck.gif": "/khys/static/media/truck.88b6245619badab433a0.gif",
-    "static/media/logo.jpg": "/khys/static/media/logo.40b60d10562796dc8514.jpg",
-    "static/media/logo.png": "/khys/static/media/logo.75091c160d9a4b1a2c6a.png",
     "index.html": "/khys/index.html",
-    "main.a5246552.css.map": "/khys/static/css/main.a5246552.css.map",
-    "main.eaa0676e.js.map": "/khys/static/js/main.eaa0676e.js.map",
+    "main.fbd588a4.css.map": "/khys/static/css/main.fbd588a4.css.map",
+    "main.5984e73a.js.map": "/khys/static/js/main.5984e73a.js.map",
     "787.0e0fc370.chunk.js.map": "/khys/static/js/787.0e0fc370.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5246552.css",
-    "static/js/main.eaa0676e.js"
+    "static/css/main.fbd588a4.css",
+    "static/js/main.5984e73a.js"
   ]
 }
