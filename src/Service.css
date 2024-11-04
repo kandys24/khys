@@ -1,0 +1,61 @@
+.service-box {
+    width: 450px;
+    max-width: 450px;
+    /* min-width: 150px; */
+    /* height: 420px; */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden; /* Ensures elements stay within bounds */
+    position: relative;
+    cursor: pointer;
+}
+
+.service-box:hover .service-content {
+    padding: 10px; /* Reduces padding slightly on hover */
+}
+
+.service-img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+}
+
+.service-box:hover .service-img {
+    transform: scale(0.6); /* Shrinks the image slightly on hover */
+}
+
+.service-title {
+    margin: 16px 10px;
+    margin-bottom: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;  
+    /* margin: 0; */
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+    transform-origin: left center;
+}
+
+.service-box:hover .service-title {
+    transform: scale(1.9); /* Enlarges the heading on hover */
+}
+
+.service-box .service-description {
+    font-size: 14px;
+    margin: 2px 10px;
+    /* text-align: justify; */
+    margin-top: 4px;
+    color: #3c78bc;
+}
+
+.service-box div{
+    margin: 10px 10px;
+    margin-top: -2px;
+    border-top: 2px solid #000;
+    width: 40px;
+}

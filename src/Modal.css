@@ -1,0 +1,142 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal .modal__closemodal{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    z-index: 100000;
+}
+
+.modal .modal__closemodal button{
+    float: right;
+    font-size: 28px; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #EBEBEB;
+    opacity: 0.95;
+    border: none;
+    margin-right: 8.4%;
+    margin-bottom: -1.7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal .modal__contanair {
+    width: 80%;
+    height: 80%;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    position: relative;
+    overflow-y: auto;
+    scrollbar-width: none;
+    border-radius: 4px;
+    
+    padding: 1% 15%;
+}
+
+.modal .modal__contanair::-webkit-scrollbar {
+    display: none;
+}
+
+.modal .modal__contanair .modal__select form{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+
+.modal .modal__contanair .modal__select form h2{
+    color: #000;
+}
+
+.modal .modal__contanair .modal__select form div{
+    display: flex;
+    flex: 1;
+}
+
+.modal .modal__contanair .modal__select form div label{
+    font-size: 16px;
+    color: #000;
+    margin-right: 3px;
+}
+
+.modal .modal__contanair .modal__select form div input, select, textarea{
+    font-size: 15px;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 6px 10px;
+    outline: none;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.modal .modal__contanair .modal__select form div input{
+    border-bottom: 0.5px solid #595959;
+}
+
+.modal .modal__contanair .modal__select form div input, textarea{
+    padding: 6px 14px;
+}
+
+.modal .modal__contanair .modal__select form textarea{
+    height: 200px;
+    border-top: 0.5px solid #595959;
+}
+
+.modal .modal__contanair .modal__select form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.modal .modal__contanair .modal__select form button:active{
+    transform: translateY(2px);
+}
+
+.modal .modal__adrress{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    margin-top: 30px;
+}
+
+.modal .modal__adrress h4{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: #999999;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.modal .error{
+    color: #ff1100;
+    font-size: 12px;
+    text-align: start;
+    margin: 5px;
+    margin-left: 0px;
+}

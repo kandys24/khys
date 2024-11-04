@@ -1,0 +1,106 @@
+header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15%;
+    /*background-color: #000048;*/
+}
+
+.headernavbar img{
+    width: 180px;
+    cursor: pointer;
+}
+
+.headernavbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.headernavbar li {
+    display: inline-block;
+    margin-right: 30px; 
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.headernavbar li:hover {
+    color: #76b4fa;
+}
+
+.headernavbar li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 200%;
+    height: 2px;
+    background: linear-gradient(to right, #76b4fa 50%, transparent 50%);
+    transition: left .5s;
+}
+
+.headernavbar li:hover::after {
+    left: -50%;
+}
+
+.headernavbar .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+.headernavbar .navbar-options {
+    display: flex;
+}
+  
+.headernavbar .option {
+    margin: 20px 0px;
+    cursor: pointer;
+    border-bottom: 1px solid #3c78bc;
+    color: #fff;
+}
+
+.headernavbar .option a:hover {
+    color: #76b4fa;
+}
+
+.headernavbar .option a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 200%;
+    height: 2px;
+    background: linear-gradient(to right, #76b4fa 50%, transparent 50%);
+    transition: left .5s;
+}
+
+.headernavbar .option a:hover::after {
+    left: -50%;
+}
+  
+.headernavbar .menu-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    top: 59px; 
+    right: 0; 
+    z-index: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3c78bc;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: purple;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    border-bottom: 2px solid #500c50;
+}

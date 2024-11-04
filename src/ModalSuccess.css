@@ -1,0 +1,20 @@
+.modalsuccess{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalsuccess .modal__contanair{
+    padding: 10px 5px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.modalsuccess .modal__contanair h4{
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #1fcb05;
+}

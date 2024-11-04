@@ -1,0 +1,140 @@
+.banne{
+    position: relative;
+}
+
+.banne .banner {
+    width: 100%;
+    height: 580px;
+    position: relative;
+}
+  
+.banne .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banne .arrow-left, .arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #e0e0e0;
+    opacity: 0.7;
+    background: url('./img/icons/icons-arrow.png') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+.banne .arrow-left {
+    left: 10px;
+    transform: rotate(180deg);
+    margin-top: -21px;
+}
+
+.banne .arrow-right {
+    right: 10px;
+}
+
+.banne .arrow-left:hover, .arrow-right:hover{
+    background-color: #e0e0e0;
+    opacity: 0.7;
+}
+  
+.banne .banner__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+    /* background-color: #ffffff; */
+    /* background: radial-gradient(circle at center, #ffffff, rgba(255, 0, 0, 0)); */
+}
+
+.banne .banner__box .banner__box__tittle{
+    padding: 10px 0px;
+    border-radius: 30px;
+    cursor: default;
+    /* background-color: #ffffff; */
+    /* background: radial-gradient(circle at center, #ffffff, rgba(255, 0, 0, 0)); */
+    /*background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%),
+                      linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%),
+                      linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
+                      radial-gradient(#000048 2px, transparent 0);
+     background-size: 30px 30px, 30px 30px; */
+}
+
+.banne .banner__box .banner__box__tittle h1{
+    color: #bab351;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banne .banner__box .banner__boxer{
+    display: flex;
+    flex-direction: row;
+}
+
+.banne .banner__box .banner__boxer .boxeach{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 158px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    color: #3c78bc;
+}
+
+.banne .banner__box .banner__boxer .boxeachactive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 135px;
+    width: 158px;
+    background-color: #ff0000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+/*.banne .banner__box .banner__boxer .boxeachactive:hover{
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg); 
+}*/
+
+.banne .banner__box .banner__boxer .boxeachactive:hover{
+    transform: translateY(3px);
+    height: 140px;
+    width: 163px;
+}
+
+.banne .banner__box .banner__boxer .boxeach img, .banne .banner__box .banner__boxer .boxeachactive img{
+    width: 50px;
+}
+
+.banne .banner__box .banner__boxer .boxeach h1, .banne .banner__box .banner__boxer .boxeachactive h1{
+    font-size: 16px;
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+}
+
+.banne .banner__box .box-text{
+    margin-top: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* .banne .banner__box{
+        top: 10%;
+    } */
+}

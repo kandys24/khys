@@ -1,0 +1,74 @@
+.contact-component {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 5px 15%;
+    color: #fff;
+}
+
+.contact-component .image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 10px;
+}
+
+.contact-component .image {
+    /* height: 100px; */
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact-component .info-container {
+    display: flex;
+    padding: 40px;
+    gap: 50px;
+}
+
+.contact-component .info-item {
+    display: flex;
+    /* border: 2px solid rgb(174, 174, 174); */
+    align-items: center;
+    padding: 15px 30px;
+    /* border-radius: 50px; */
+    /* border-bottom-right-radius: 0px; */
+    /* box-shadow: 0px 0px 5px 0px rgb(174, 174, 174); */
+    width: 100%;
+}
+
+.contact-component .info-item:last-child{
+    border-radius: 50px;    
+    /* border-bottom-left-radius: 0px; */
+}
+
+.contact-component .info-item-middle{
+    border-radius: 50px;    
+}
+
+.contact-component .icon {
+    margin-right: 15px;
+    padding: 15px 17px;
+    border-radius: 50%;
+    background-color: #3c78bc;
+}
+
+.contact-component .icon img{
+    width: 35px;
+}
+
+.contact-component .title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-component .title-container h3{
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-component .title-container label{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}

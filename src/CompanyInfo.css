@@ -1,0 +1,81 @@
+.companyinfo{
+    padding: 50px 5%;
+    padding-top: 0;
+}
+
+.companyinfo .companyinfo_title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    color: #fff;
+}
+
+.companyinfo .div{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    border-top: 2px solid #fff;
+    width: 60px;
+}
+
+.company-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+
+.company-info .image-container {
+    width: 350px;
+    height: 500px;
+    border: 4px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.company-info .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.company-info .text-container {
+    flex-grow: 1;
+    padding: 0 40px;
+}
+
+.company-info .text-container h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0;
+}
+
+.company-info .text-container p {
+    color: #3c78bc;
+    text-align: justify;
+}
+
+.companyinfo .companyinfos{
+    /* width: 48%; */
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.companyinfo .companyinfos h1{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.companyinfo .companyinfoss{
+    width: 13rem;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.companyinfo .companyinfoss h1{
+    font-size: 15px;
+}
+
+.companyinfo .companyinfoss div{
+    font-size: 15px;
+    padding: 2px 0px;
+    background-color: #bab351;
+}
